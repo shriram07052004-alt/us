@@ -15,7 +15,7 @@ let noFontSize = 16; // Starting font size in px
 
 // When the valentine button is clicked, show yes/no buttons
 valentineBtn.addEventListener("click", () => {
-  response.textContent = "So... what do you say? \ud83d\ude0f";
+  response.textContent = = "Kavi, do you love me? \ud83d\udc95";
   valentineBtn.style.display = "none";
   yesNoButtons.style.display = "flex";
 });
