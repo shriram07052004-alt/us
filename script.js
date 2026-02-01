@@ -15,14 +15,14 @@ let noFontSize = 16; // Starting font size in px
 
 // When the valentine button is clicked, show yes/no buttons
 valentineBtn.addEventListener("click", () => {
-  response.textContent = "So... what do you say? 😏";
+  response.textContent = "So... what do you say? \ud83d\ude0f";
   valentineBtn.style.display = "none";
   yesNoButtons.style.display = "flex";
 });
 
 // Yes button click - show the loving message and photos
 yesBtn.addEventListener("click", () => {
-  response.innerHTML = "<br>Yayyy ❤️ I love you, Kavi! Happy Valentine's Day 🎆";
+  response.innerHTML = "<br>Yayyy \u2764\ufe0f I love you, Kavi! Happy Valentine's Day \ud83c\udf86";
   yesNoButtons.style.display = "none";
   photoGallery.style.display = "flex";
 
@@ -38,7 +38,7 @@ noBtn.addEventListener("click", (e) => {
   
   // Show next message
   if (noClickCount < noMessages.length) {
-    response.textContent = noMessages[noClickCount];
+    response.textContent = noMessages[noClickCount] + " \ud83d\ude08";
   }
   
   // Shrink No button
