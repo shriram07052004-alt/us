@@ -52,7 +52,7 @@ noBtn.addEventListener("click", (e) => {
   yesBtn.style.padding = (12 * (yesFontSize / 16)) + "px " + (20 * (yesFontSize / 16)) + "px";
   
   // Move No button away
-  moveNoButton();
+//   moveNoButton();
   
   noClickCount++;
 });
@@ -64,7 +64,7 @@ function moveNoButton() {
   noBtn.style.transform = `translate(${randomX}px, ${randomY}px)`;
 }
 
-noBtn.addEventListener("mouseenter", moveNoButton);
+// noBtn.addEventListener("mouseenter", moveNoButton);
 
 // Create a single floating heart element
 function createHeart() {
