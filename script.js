@@ -22,7 +22,7 @@ valentineBtn.addEventListener("click", () => {
 
 // Yes button click - show the loving message and photos
 yesBtn.addEventListener("click", () => {
-  response.innerHTML = "<br>Yayyy \u2764\ufe0f I love you, Kavi! Happy Valentine's Day \ud83c\udf86";
+  response.innerHTML = "<br>Yayyy \u2764\ufe0f I love you, Kavi!  \ud83c\udf86";
   yesNoButtons.style.display = "none";
   photoGallery.style.display = "flex";
 
